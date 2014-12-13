@@ -18,7 +18,7 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    [character flap];
+    //[character flap];
     // Increment the time since the last obstacle was added
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
     
@@ -27,7 +27,7 @@
     {
         // Add a new obstacle
         [self addObstacle];
-         [character flap];
+        
         
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
