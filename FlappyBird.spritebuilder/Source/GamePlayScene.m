@@ -11,11 +11,14 @@
     [physicsNode addChild:character];
     //call method addObstacle()
     [self addObstacle];
+    timeSinceObstacle = 0.0f;
 }
 
 -(void)update:(CCTime)delta
 {
     // put update code here
+    [character flap];
+    
 }
 
 // put new methods here
