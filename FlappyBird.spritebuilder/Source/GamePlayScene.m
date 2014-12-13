@@ -27,6 +27,7 @@
     {
         // Add a new obstacle
         [self addObstacle];
+         [character flap];
         
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
